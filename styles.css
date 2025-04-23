@@ -1,0 +1,126 @@
+/*desc*/
+@media (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+        margin: 0 auto;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .contact-us-title {
+    }
+    .contact-us-img {
+    }
+    .contact-us-wrapper {
+    }
+    .contact-us-form {
+    }
+    .form-text {
+    }
+    .form-label {
+    }
+    .label {
+    }
+    .form-input {
+    }
+    .form-comment {
+    }
+    .input-comment {
+    }
+    .send-button {
+    }
+}
+
+/*tablet*/
+@media (min-width: 768px) and (max-width: 1157px) {
+   .container {
+        max-width: 768px;
+        margin: 0 auto;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .contact-us-title {
+    }
+    .contact-us-img {
+    }
+    .contact-us-wrapper {
+    }
+    .contact-us-form {
+    }
+    .form-text {
+    }
+    .form-label {
+    }
+    .label {
+    }
+    .form-input {
+    }
+    .form-comment {
+    }
+    .input-comment {
+    }
+    .send-button {
+    }
+}
+
+/*mobile*/
+
+@media (max-width: 767px) {
+    body {
+        background-color: #FBFBFB;
+    }
+
+    .container {
+        min-width: 320px;
+        max-width: 375px;
+        margin: 0 auto;
+        padding: 0 16px;
+    }
+
+    .contact-us-title {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        color: #0c0c0c;
+    }
+
+    .contact-us-img {
+        width: 335px;
+        height: 512px;
+    }
+
+    .contact-us-wrapper {
+        padding: 48px 28px;
+        border-radius: 30px;
+        width: 100%;
+        background-color: #f3f3f3;
+        box-sizing: border-box;
+        border: 2px solid red;
+    }
+
+    .contact-us-form {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 28px;
+        width: 100%;
+    }
+
+    .form-text {
+    }
+    .form-label {
+    }
+    .label {
+    }
+    .form-input {
+    }
+    .form-comment {
+    }
+    .input-comment {
+    }
+    .send-button {
+    }
+}
